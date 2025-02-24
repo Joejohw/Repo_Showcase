@@ -17,7 +17,7 @@ Este projeto tem como objetivo desenvolver uma plataforma de gestão de forneced
 - [ ] Criar estrutura do banco de dados e modelos iniciais
 
 ### 2. Desenvolvimento do Back-end
-- [ ] Configurar projeto Spring Boot e dependências essenciais
+- [x] Configurar projeto Spring Boot e dependências essenciais
 - [ ] Implementar autenticação e autorização
 - [ ] Criar API para cadastro, edição e exclusão de fornecedores
 - [ ] Implementar avaliação de fornecedores com métricas personalizáveis
@@ -57,7 +57,7 @@ Este projeto tem como objetivo desenvolver uma plataforma de gestão de forneced
 ## Tecnologias Utilizadas
 - **Back-end:** Java (Spring Boot)
 - **Front-end:** React.js
-- **Banco de Dados:** PostgreSQL
+- **Banco de Dados:** H2 - local
 - **Autenticação:** A definir
 - **Infraestrutura:** Docker
 
