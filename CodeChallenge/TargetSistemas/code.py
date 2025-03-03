@@ -55,7 +55,7 @@ else:                                                                   # Caso c
 
 import json # Importação da biblioteca json
 
-arquivo_json = "Repo_Showcase\CodeChallenge\TargetSistemas/dados.json" # Caminho do arquivo json, ## caso necessário direcione o caminho ##
+arquivo_json = "\\CodeChallenge\\TargetSistemas\\dados.json" # Caminho do arquivo json, ## caso necessário direcione o caminho ##
 
 def analisa_faturamento(arquivo): # Função para analisar o faturamento
     with open(arquivo, 'r') as file: # Abre o arquivo
