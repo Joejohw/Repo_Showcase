@@ -10,6 +10,23 @@ Este projeto tem como objetivo desenvolver uma plataforma de gestão de forneced
 - Notificações e alertas ⏳
 - Relatórios e dashboards ⏳
 
+
+## Relacionamentos
+
+```mermaid
+erDiagram
+    USUARIO ||--o{ FORNECEDOR : "gerencia"
+    USUARIO ||--o{ RECLAMACAO : "registra"
+    USUARIO ||--o{ ATIVIDADE : "atribui"
+    FORNECEDOR ||--o{ CONTRATO : "possui"
+    FORNECEDOR ||--o{ RECLAMACAO : "sofre"
+    FORNECEDOR ||--o{ AVALIACAO : "recebe"
+    CONTRATO ||--o{ DOCUMENTO : "contém"
+    RECLAMACAO ||--o{ ATIVIDADE : "gera"
+    ATIVIDADE ||--o{ AVALIACAO : "impacta"
+```
+
+
 ## Roadmap do Projeto
 ### 1. Planejamento e Estruturação
 - [ ] Definir arquitetura do sistema (Monolítico, Microserviços, etc.)
