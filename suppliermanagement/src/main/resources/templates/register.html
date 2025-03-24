@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Criar Conta</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="login-container">
-        <h1>Login</h1>
-        <form action="/login" method="post">
+    <div class="register-container">
+        <h1>Criar Conta</h1>
+        <form action="/register" method="post">
             <div class="input-group">
                 <label for="username">Usuário</label>
                 <input type="text" id="username" name="username" required autocomplete="off">
@@ -18,9 +18,12 @@
                 <label for="password">Senha</label>
                 <input type="password" id="password" name="password" required autocomplete="off">
             </div>
-            <button type="submit" class="login-button">Entrar</button>
+             <div class="input-group">
+                <label for="confirm_password">Confirmar Senha</label>
+                <input type="password" id="confirm_password" name="confirm_password" required autocomplete="off">
+            </div>
+            <button type="submit" class="register-button">Registrar</button>
         </form>
-        <button onclick="window.location.href='/register'" class="register-button">Criar Conta</button>
     </div>
 </body>
 </html>
